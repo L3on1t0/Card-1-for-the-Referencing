@@ -5,10 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="icon" href="image/cduicon.jpg"/>
+    <div class="refstyle">
+      <link rel="icon" href="image/cduicon.jpg"/>
+      <!-- <h2> Referencing Styles </h2> -->
+    </div>
     <title>Study Skills | Referencing by Team ALF</title>
   </head>
   <body>
+
     <div class="topnav">
       <ul class="nav-links">
         <li><a href="https://www.cdu.edu.au/">CDU Home</a></li> <!-- Main CDU home page-->
@@ -31,16 +35,10 @@
         <div class="line 3"></div>
       </div>
     </div>
-    <div class="header">
-      <img src="image/heading.jpg" alt="header">
+    <div class="wrapper">
+      <a href="index.html"><img class="banner" src="image/heading.jpg" alt="header"></a>
     </div>
 
-    <div style="text-align:center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-    <script src="js/slideshow.js"></script>
     <div class="navi">
       <ul class="nav">
         <h2> Study Skills</h2>
@@ -56,12 +54,15 @@
         <li><a href="#Videos and interactives">Videos and interactives</a></li>
       </ul>
     </div>
+    <script src="js/nav.js"></script>
 
     <div class="card-wrap">
       <div class="cardo">
         <h3>Academic integrity and plagiarism</h3>
         <p class="desco">Charles Darwin University encourages all students to use academic resources in an ethical manner and to demonstrate academic integrity in all aspects of their writing and scholarship. Academic integrity is the absence of plagiarism and cheating.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BzCipTk71Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="cardvid">
+          <iframe src="https://www.youtube.com/embed/BzCipTk71Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
 
@@ -71,8 +72,8 @@
 
     <!-- Accordion -->
     <button class="accordion">Academing integrity</button>
-    <div class="panel">
-      <div class="panel-image">
+    <div class="panel1">
+      <div class="panel-image1">
         <img src="image/ai.jpg" alt="pic">
       </div>
       <div class="describ">
@@ -95,7 +96,7 @@
     </div>
 
     <button class="accordion">What is plagiarism?</button>
-    <div class="panel">
+    <div class="panel1">
       <div class="panel-images">
         <img src="image/copy.png" alt="pic">
       </div>
@@ -114,7 +115,7 @@
     </div>
 
     <button class="accordion">Some other relevant links</button>
-    <div class="panel">
+    <div class="panel1">
       <div class="panel-img">
         <img src="image/mi.png" alt="pic1">
       </div>
@@ -129,16 +130,5 @@
     </div>
     <script src="js/accordion.js"></script>
 
-
-    <div class="footer">
-      <div>
-        <ul class="social-media">
-          <li><a><img src="image/gmail.png" alt="gmail" /></a></li>
-          <!-- <li><a><img src="image/fb.png" alt="facebook" /></a></li>
-          <li><a><img src="image/ig.png" alt="instagram" /></a></li>
-          <li><a><img src="image/twtr.png" alt="twitter" /></a></li> -->
-        </ul>
-      </div>
-    </div>
   </body>
 </html>
